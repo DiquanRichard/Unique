@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6BB4831ECD439B0087DBA2 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BB4821ECD439A0087DBA2 /* FeedTableViewCell.swift */; };
 		5DACC75F1ECD3C5000564D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC75E1ECD3C5000564D20 /* AppDelegate.swift */; };
 		5DACC7611ECD3C5000564D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC7601ECD3C5000564D20 /* ViewController.swift */; };
 		5DACC7641ECD3C5000564D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DACC7621ECD3C5000564D20 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		5DACC7691ECD3C5000564D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DACC7671ECD3C5000564D20 /* LaunchScreen.storyboard */; };
 		5DACC7741ECD3C5100564D20 /* UniqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC7731ECD3C5100564D20 /* UniqueTests.swift */; };
 		5DACC77F1ECD3C5100564D20 /* UniqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC77E1ECD3C5100564D20 /* UniqueUITests.swift */; };
+		5DACC78F1ECD40A500564D20 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC78E1ECD40A500564D20 /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D6BB4821ECD439A0087DBA2 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		5DACC75B1ECD3C5000564D20 /* Unique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unique.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DACC75E1ECD3C5000564D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DACC7601ECD3C5000564D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		5DACC77A1ECD3C5100564D20 /* UniqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DACC77E1ECD3C5100564D20 /* UniqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueUITests.swift; sourceTree = "<group>"; };
 		5DACC7801ECD3C5100564D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DACC78E1ECD40A500564D20 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedTableViewController.swift; path = ../FeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				5DACC7621ECD3C5000564D20 /* Main.storyboard */,
 				5DACC7651ECD3C5000564D20 /* Assets.xcassets */,
 				5DACC7671ECD3C5000564D20 /* LaunchScreen.storyboard */,
+				5DACC78E1ECD40A500564D20 /* FeedTableViewController.swift */,
+				5D6BB4821ECD439A0087DBA2 /* FeedTableViewCell.swift */,
 				5DACC76A1ECD3C5000564D20 /* Info.plist */,
 			);
 			path = Unique;
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DACC7611ECD3C5000564D20 /* ViewController.swift in Sources */,
+				5D6BB4831ECD439B0087DBA2 /* FeedTableViewCell.swift in Sources */,
+				5DACC78F1ECD40A500564D20 /* FeedTableViewController.swift in Sources */,
 				5DACC75F1ECD3C5000564D20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +514,7 @@
 				5DACC7851ECD3C5100564D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DACC7861ECD3C5100564D20 /* Build configuration list for PBXNativeTarget "UniqueTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +523,7 @@
 				5DACC7881ECD3C5100564D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DACC7891ECD3C5100564D20 /* Build configuration list for PBXNativeTarget "UniqueUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +532,7 @@
 				5DACC78B1ECD3C5100564D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
