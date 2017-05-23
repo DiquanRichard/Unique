@@ -13,16 +13,16 @@
         <scene sceneID="CzI-eX-cij">
             <objects>
                 <tableViewController id="cCp-Xp-ikU" customClass="FeedTableViewController" customModule="Unique" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="274" sectionHeaderHeight="28" sectionFooterHeight="28" id="ddC-l2-PL2">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="317" sectionHeaderHeight="28" sectionFooterHeight="28" id="ddC-l2-PL2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="274" id="As1-Gk-AgE" customClass="FeedTableViewCell" customModule="Unique" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="274"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="317" id="As1-Gk-AgE" customClass="FeedTableViewCell" customModule="Unique" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="317"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="As1-Gk-AgE" id="PqL-K0-ihO">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="274"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="317"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYg-rV-oyi">
@@ -36,35 +36,23 @@
                                             <rect key="frame" x="3" y="-5" width="369" height="201"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgu-JR-yx7">
-                                            <rect key="frame" x="254" y="228" width="107" height="49"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Let It Be Known"/>
-                                        </button>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ngi-Cu-JKS">
-                                            <rect key="frame" x="75" y="247" width="97" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Who are you?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kLT-f0-30B">
-                                            <rect key="frame" x="75" y="236" width="163" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzr-jX-ZS8">
                                             <rect key="frame" x="16" y="228" width="51" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Love"/>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIG-CQ-ZmX">
-                                            <rect key="frame" x="24" y="244" width="40" height="30"/>
+                                            <rect key="frame" x="316" y="228" width="40" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Share"/>
                                         </button>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="This is me like it or not this is who I am. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PrC-4d-Xb5">
+                                            <rect key="frame" x="90" y="228" width="160" height="72"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -93,7 +81,7 @@
         <!--Profile-->
         <scene sceneID="ANu-AM-YuI">
             <objects>
-                <viewController id="0EG-pO-lmS" sceneMemberID="viewController">
+                <viewController id="0EG-pO-lmS" customClass="ProfileViewController" customModule="Unique" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iJH-ZU-Po3"/>
                         <viewControllerLayoutGuide type="bottom" id="tR6-ar-iPO"/>
@@ -102,30 +90,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="JPF-Sf-caB">
-                                <rect key="frame" x="3" y="62" width="369" height="201"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7ea4daea8e6f236d2e4863779c4517b2" translatesAutoresizingMaskIntoConstraints="NO" id="51q-C9-VkD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="660"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ao-Hq-wkB">
+                            <button opaque="NO" alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ao-Hq-wkB">
                                 <rect key="frame" x="252" y="294" width="107" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <state key="normal" title="Let It Be Known"/>
+                                <connections>
+                                    <action selector="ButtonClicked:" destination="0EG-pO-lmS" eventType="touchUpInside" id="CGL-R7-VIw"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Who are you?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gL2-Co-qu5">
-                                <rect key="frame" x="44" y="304" width="163" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9h-IE-tDx">
+                                <rect key="frame" x="31" y="28" width="313" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
+                                <state key="normal" title="Click to upload photo" backgroundImage="unnamed"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" text="Who are you?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O1H-YL-1Kd">
+                                <rect key="frame" x="16" y="294" width="228" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="4JD-m0-GE5"/>
+                    <connections>
+                        <outlet property="Button" destination="4ao-Hq-wkB" id="UxV-5Q-z8J"/>
+                        <outlet property="Status" destination="O1H-YL-1Kd" id="4cr-aJ-IgY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3u-FX-fYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="421" y="261"/>
+            <point key="canvasLocation" x="420" y="260.41979010494754"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ugi-io-Iq2">
@@ -147,6 +148,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="7ea4daea8e6f236d2e4863779c4517b2" width="1116" height="664"/>
         <image name="unnamed" width="1062" height="746"/>
     </resources>
 </document>

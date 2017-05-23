@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D6BB4831ECD439B0087DBA2 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BB4821ECD439A0087DBA2 /* FeedTableViewCell.swift */; };
+		5D9FD2DE1ED3DB5E00329ED5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FD2DD1ED3DB5E00329ED5 /* ProfileViewController.swift */; };
 		5DACC75F1ECD3C5000564D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC75E1ECD3C5000564D20 /* AppDelegate.swift */; };
 		5DACC7611ECD3C5000564D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DACC7601ECD3C5000564D20 /* ViewController.swift */; };
 		5DACC7641ECD3C5000564D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DACC7621ECD3C5000564D20 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		5D6BB4821ECD439A0087DBA2 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		5D9FD2DD1ED3DB5E00329ED5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5DACC75B1ECD3C5000564D20 /* Unique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unique.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DACC75E1ECD3C5000564D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DACC7601ECD3C5000564D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				5DACC75E1ECD3C5000564D20 /* AppDelegate.swift */,
 				5DACC7601ECD3C5000564D20 /* ViewController.swift */,
 				5DACC7621ECD3C5000564D20 /* Main.storyboard */,
+				5D9FD2DD1ED3DB5E00329ED5 /* ProfileViewController.swift */,
 				5DACC7651ECD3C5000564D20 /* Assets.xcassets */,
 				5DACC7671ECD3C5000564D20 /* LaunchScreen.storyboard */,
 				5DACC78E1ECD40A500564D20 /* FeedTableViewController.swift */,
@@ -266,6 +269,7 @@
 			files = (
 				5DACC7611ECD3C5000564D20 /* ViewController.swift in Sources */,
 				5D6BB4831ECD439B0087DBA2 /* FeedTableViewCell.swift in Sources */,
+				5D9FD2DE1ED3DB5E00329ED5 /* ProfileViewController.swift in Sources */,
 				5DACC78F1ECD40A500564D20 /* FeedTableViewController.swift in Sources */,
 				5DACC75F1ECD3C5000564D20 /* AppDelegate.swift in Sources */,
 			);
