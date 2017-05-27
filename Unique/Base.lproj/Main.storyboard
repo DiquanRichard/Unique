@@ -107,6 +107,9 @@
                                 <rect key="frame" x="31" y="28" width="313" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click to upload photo" backgroundImage="unnamed"/>
+                                <connections>
+                                    <action selector="imgClicked:" destination="0EG-pO-lmS" eventType="touchUpInside" id="nDh-wP-dq5"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.55000000000000004" contentMode="scaleToFill" fixedFrame="YES" text="Who are you?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O1H-YL-1Kd">
                                 <rect key="frame" x="16" y="294" width="228" height="172"/>
@@ -122,11 +125,12 @@
                     <connections>
                         <outlet property="Button" destination="4ao-Hq-wkB" id="UxV-5Q-z8J"/>
                         <outlet property="Status" destination="O1H-YL-1Kd" id="4cr-aJ-IgY"/>
+                        <outlet property="chooseImage" destination="a9h-IE-tDx" id="bJz-NA-0cT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3u-FX-fYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="260.41979010494754"/>
+            <point key="canvasLocation" x="281" y="260"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ugi-io-Iq2">
